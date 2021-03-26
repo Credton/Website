@@ -1,0 +1,81 @@
+
+button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    outline: none!important;
+}
+
+svg {
+    padding: 5px;
+    color: red;
+    outline: none!important;
+}
+
+@media only screen and (max-width: 768px) {
+    .arrow {
+        cursor: pointer;
+        height: 90px;
+        background-color: transparent !important;
+        border: transparent !important;
+        outline: none!important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .arrow {
+        cursor: pointer;
+        width: 70px;
+        height: 90px;
+        background-color: transparent !important;
+        border: transparent !important;
+        outline: none!important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .arrow {
+        cursor: pointer;
+        width: 70px;
+        height: 90px;
+        background-color: transparent !important;
+        border: transparent !important;
+        outline: none!important;
+    }
+}
+
+
+
+.left {
+    left: 42%;
+}
+
+.right {
+    left: 58%;
+}
+
+.left:hover polyline, .left:focus polyline {
+    stroke-width: 3;
+    outline: none!important;
+}
+
+.left:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+    outline: none!important;
+}
+
+.right:hover polyline, .right:focus polyline {
+    stroke-width: 3;
+    outline: none!important;
+}
+
+.right:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+    outline: none!important;
+}
+
+polyline {
+    transition: all 250ms ease-in-out;
+    outline: none!important;
+}
