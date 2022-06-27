@@ -18,7 +18,7 @@ var loadMore = function() {
 
 window.onscroll = function(ev) {
   if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - document.querySelector('#footer').offsetHeight
-        && loading == false && currentSection != "pg-4") {
+        && loading == false && currentSection != "pg-8") {
     showSpinner()
     loading = true;
     setTimeout(function(){ loadMore(); }, 800);

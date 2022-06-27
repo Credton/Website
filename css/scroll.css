@@ -10,6 +10,22 @@
     display: none;
 }
 
+.pg-5 {
+    display: none;
+}
+
+.pg-6 {
+    display: none;
+}
+
+.pg-7 {
+    display: none;
+}
+
+.pg-8 {
+    display: none;
+}
+
 .active {
     display: block !important;
 }
